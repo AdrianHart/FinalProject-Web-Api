@@ -1,0 +1,566 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "picture": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "firstName",
+            "lastName",
+            "picture"
+          ]
+        }
+      ]
+    },
+    "total": {
+      "type": "integer"
+    },
+    "page": {
+      "type": "integer"
+    },
+    "limit": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "data",
+    "total",
+    "page",
+    "limit"
+  ]
+}
