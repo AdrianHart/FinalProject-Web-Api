@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty"},
         glue = {"stepDef"},
         features = {"src/test/java/web/features"},
-        tags = "@api"
+        tags = "@web"
 )
 
 public class WebRunner {

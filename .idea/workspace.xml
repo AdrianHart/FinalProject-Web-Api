@@ -6,6 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="ce1ac167-c07a-4914-a9a8-0f12a4a1f4fe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/features/DELETE.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/features/DELETE.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/features/GET.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/features/GET.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/features/POST.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/features/POST.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/features/PUT.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/features/PUT.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/features/TAG.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/features/TAG.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helper/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SignupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SignupPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/WebRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/WebRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/CartStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/CartStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/features/ABOUT.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/features/ABOUT.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/features/CART.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/features/CART.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/features/HOME.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/features/HOME.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/features/LOGIN.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/features/LOGIN.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/features/SIGNUP.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/features/SIGNUP.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +63,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Cucumber Java.Feature: ABOUT.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CART.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Feature: DELETE.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Feature: GET.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Feature: HOME.executor&quot;: &quot;Run&quot;,
@@ -71,19 +87,28 @@
     &quot;Cucumber Java.Scenario: User login with invalid password.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: User login with invalid username.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: User login with valid username and password.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User sign up with existed username.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User want return to homepage from cart with Product Store logo.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User want to add item 2 times to cart.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User want to add item to cart.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User want to add same item 2 times to cart.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: User want to create new account with empty username and password.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: User want to create new account.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User want to delete item from cart.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: User want to logout.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: User want to refresh page.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: User want to see about demoblaze.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: User want to see all item on home page.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: just print.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Build FinalProjectJayjay.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApiRunner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebRunner.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;I:/HOMEWORK JAYJAY/repo/FinalProjectJayjay&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -113,26 +138,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: SIGNUP">
-    <configuration name="Feature: LOGIN" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/web/features/LOGIN.feature" />
-      <option name="GLUE" value="stepDef" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="FinalProjectJayjay.test" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: LOGIN" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Scenario: User want to create new account">
     <configuration name="Feature: SIGNUP" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/web/features/SIGNUP.feature" />
@@ -152,15 +158,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User login with invalid username" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User sign up with existed username" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/web/features/LOGIN.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/web/features/SIGNUP.feature" />
       <option name="GLUE" value="stepDef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="FinalProjectJayjay.test" />
-      <option name="NAME_FILTER" value="^User login with invalid username$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User login with invalid username$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User login with invalid username" />
+      <option name="NAME_FILTER" value="^User sign up with existed username$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User sign up with existed username$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User sign up with existed username" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -212,13 +218,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalProjectJayjay.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.ApiRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: SIGNUP" />
-        <item itemvalue="Cucumber Java.Feature: LOGIN" />
-        <item itemvalue="Cucumber Java.Scenario: User login with invalid username" />
         <item itemvalue="Cucumber Java.Scenario: User want to create new account" />
+        <item itemvalue="Cucumber Java.Feature: SIGNUP" />
+        <item itemvalue="Cucumber Java.Scenario: User sign up with existed username" />
         <item itemvalue="Cucumber Java.Scenario: User want to create new account with empty username and password" />
+        <item itemvalue="JUnit.ApiRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -524,7 +545,45 @@
       <workItem from="1705383840288" duration="8037000" />
       <workItem from="1705394113487" duration="965000" />
       <workItem from="1705467391266" duration="3262000" />
-      <workItem from="1705472962884" duration="1927000" />
+      <workItem from="1705472962884" duration="5403000" />
+      <workItem from="1705478493349" duration="27000" />
+      <workItem from="1705478585055" duration="110000" />
+      <workItem from="1705478704160" duration="253000" />
+      <workItem from="1705479009936" duration="951000" />
+      <workItem from="1705480039503" duration="693000" />
+      <workItem from="1705554603430" duration="2689000" />
+      <workItem from="1705561519158" duration="61000" />
+      <workItem from="1705561605586" duration="1051000" />
+      <workItem from="1705562971888" duration="68000" />
+      <workItem from="1705563053409" duration="397000" />
+      <workItem from="1705563483033" duration="1277000" />
+      <workItem from="1705566067027" duration="1492000" />
+      <workItem from="1705644918282" duration="9000" />
+      <workItem from="1705905470198" duration="1313000" />
+      <workItem from="1705908298995" duration="884000" />
+      <workItem from="1705910438030" duration="1116000" />
+      <workItem from="1705911866570" duration="1592000" />
+      <workItem from="1705913505218" duration="252000" />
+      <workItem from="1705991863521" duration="5033000" />
+      <workItem from="1705999559934" duration="947000" />
+      <workItem from="1706071968375" duration="1382000" />
+      <workItem from="1706077311841" duration="1521000" />
+      <workItem from="1706079062027" duration="1384000" />
+      <workItem from="1706080456517" duration="1990000" />
+      <workItem from="1706083035926" duration="3108000" />
+      <workItem from="1706162183266" duration="1804000" />
+      <workItem from="1706167706449" duration="888000" />
+      <workItem from="1706168668608" duration="3137000" />
+      <workItem from="1706171964516" duration="909000" />
+      <workItem from="1706246420391" duration="4325000" />
+      <workItem from="1706256043628" duration="1252000" />
+      <workItem from="1706257336376" duration="346000" />
+      <workItem from="1706257843605" duration="1001000" />
+      <workItem from="1706270322295" duration="11000" />
+      <workItem from="1706509301715" duration="2943000" />
+      <workItem from="1706514883818" duration="104000" />
+      <workItem from="1706515117471" duration="2600000" />
+      <workItem from="1706587613781" duration="4719000" />
     </task>
     <servers />
   </component>

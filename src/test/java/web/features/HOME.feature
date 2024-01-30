@@ -1,6 +1,7 @@
+@web
 Feature: Automation WEB Demoblaze
 
-  # POSITIVE API TEST
+  # POSITIVE WEB TEST
   @homepage-positive-web
   Scenario: User want to see all item on home page
     Given user is on home page

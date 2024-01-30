@@ -1,6 +1,7 @@
+@web
 Feature: Automation WEB Demoblaze
 
-  # POSITIVE API TEST
+  # POSITIVE WEB TEST
   @signup-positive-web
   Scenario Outline: User want to create new account
     Given user is on home page
@@ -10,10 +11,12 @@ Feature: Automation WEB Demoblaze
     And user click sign up button
     Then user see a message alert "Sign up successful."
     Examples:
-      | username       | password     |
-      | "adrianTest01" | "adrianTest" |
+      | username          | password     |
+      | "randomUser"      | "adrianTest" |
+      | "randomNum"       | "adrianTest" |
+#    adrianTest01 | adrianTest : manual username ganti disini angkanya aja
 
-  # NEGATIVE API TEST
+  # NEGATIVE WEB TEST
   @signup-negative-web
   Scenario: User want to create new account with empty username and password
     Given user is on home page

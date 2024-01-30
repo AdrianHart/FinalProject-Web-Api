@@ -1,6 +1,7 @@
+@web
 Feature: Automation WEB Demoblaze
 
-  # POSITIVE API TEST
+  # POSITIVE WEB TEST
   @aboutus-positive-test
   Scenario: User want to see about demoblaze
     Given user is on home page

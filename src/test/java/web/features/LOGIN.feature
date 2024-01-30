@@ -1,6 +1,7 @@
+@web
 Feature: Automation WEB Demoblaze
 
-  # POSITIVE API TEST
+  # POSITIVE WEB TEST
   @login-positive-web
   Scenario Outline: User login with valid username and password
     Given user is on home page
@@ -34,7 +35,7 @@ Feature: Automation WEB Demoblaze
     And user click close button
     Then user will be directed to home page
 
-  # NEGATIVE API TEST
+  # NEGATIVE WEB TEST
   @login-negative-web
   Scenario: User login with invalid username
     Given user is on home page

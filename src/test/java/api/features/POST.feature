@@ -1,3 +1,4 @@
+@api
 Feature: Automation Rest API DummyIO
 
   # POSITIVE API TEST
