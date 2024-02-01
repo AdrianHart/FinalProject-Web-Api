@@ -24,7 +24,7 @@ dependencies {
     testImplementation 'io.rest-assured:json-schema-validator:5.3.0'
     testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.24.0'
 
-    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.14.1'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.17.0'
     testImplementation("io.github.bonigarcia:webdrivermanager:5.6.0")
 }
 
@@ -54,6 +54,42 @@ task cucumber {
                     '--glue', 'stepDef',
                     '--tags', "${tags}",
                     'src/test/java/api/features'
+            ]
+        }
+    }
+}
+
+task api {
+    dependsOn assemble, testClasses
+    doLast {
+        javaexec {
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRunTime + sourceSets.main.output + sourceSets.test.output
+            args = [
+                    '--plugin', 'html:reports/test-report.html',
+                    '--plugin', 'json:reports/test-report.json',
+                    '--plugin', 'pretty',
+                    '--glue', 'stepDef',
+                    '--tags', "@api",
+                    'src/test/java/api/features'
+            ]
+        }
+    }
+}
+
+task web {
+    dependsOn assemble, testClasses
+    doLast {
+        javaexec {
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRunTime + sourceSets.main.output + sourceSets.test.output
+            args = [
+                    '--plugin', 'html:reports/test-report.html',
+                    '--plugin', 'json:reports/test-report.json',
+                    '--plugin', 'pretty',
+                    '--glue', 'stepDef',
+                    '--tags', "@web",
+                    'src/test/java/web/features'
             ]
         }
     }

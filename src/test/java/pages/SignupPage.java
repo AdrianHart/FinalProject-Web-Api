@@ -41,14 +41,14 @@ public class SignupPage {
     }
 
     public void userInputFormUsernameUsername(String username) {
-//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//        WebElement usernameInput = wait.until(ExpectedConditions.elementToBeClickable(usernameFormSignup));
-//        usernameInput.findElement(usernameFormSignup).sendKeys(username);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement usernameInput = wait.until(ExpectedConditions.elementToBeClickable(usernameFormSignup));
+        usernameInput.findElement(usernameFormSignup).sendKeys(username);
 
         Preferences prefs = Preferences.userRoot().node("web.features");
         switch (username) {
             case "randomUser":
-                String randomUsername = generateRandomAlphabet(15);
+                String randomUsername = generateRandomAlphabet(12);
                 driver.findElement(usernameFormSignup).sendKeys(randomUsername);
                 prefs.put("createUser", randomUsername);
                 break;

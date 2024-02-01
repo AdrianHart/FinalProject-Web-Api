@@ -14,7 +14,6 @@ Feature: Automation WEB Demoblaze
       | username          | password     |
       | "randomUser"      | "adrianTest" |
       | "randomNum"       | "adrianTest" |
-#    adrianTest01 | adrianTest : manual username ganti disini angkanya aja
 
   # NEGATIVE WEB TEST
   @signup-negative-web
